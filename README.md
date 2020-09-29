@@ -9,10 +9,7 @@ Utilizes:
 4. DAO Pattern - Having a helper class to interact with the database.
 5. Apache Tomcat -  Server to execute Java servlets and render webpages.
 
-Project Organization: 1. Customer Controller <-> 2. Customer Service <-> 3. Customer DAO <-> 4. Database
-                                |
-                                v
-                      5. JSP Pages
+Project Organization: 1. Customer Controller <-> 2. Customer Service <-> 3. Customer DAO <-> 4. Database -> 5. JSP
                      
 Customer Controller: Contains business logic
   - Request Mappings to different URLs
